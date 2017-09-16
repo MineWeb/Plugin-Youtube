@@ -1,0 +1,11 @@
+{
+    "YOUTUBE__TITLE":"Video Gallery",
+    "YOUTUBE__CATEGORIES__ADD":"Add a Youtube video",
+    "YOUTUBE__CATEGORIES__EDIT":"Edit the main video",
+    "YOUTUBE__URL":"Url",
+    "YOUTUBE__ADD__SUCCESS":"Video insert with success",
+    "YOUTUBE__ADD__EDIT":"Video edit with success",
+    "YOUTUBE__ADD__FAILED":"You must write a link",
+    "YOUTUBE__ADD__FAILED__URL":"You must write a valid URL",
+    "YOUTUBE__DELETE__SUCCESS":"The video has been deleted"
+}

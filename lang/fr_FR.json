@@ -1,0 +1,12 @@
+{
+  "YOUTUBE__TITLE":"Galerie vidéo",
+  "YOUTUBE__CATEGORIES__ADD":"Ajouter une vidéo Youtube",
+  "YOUTUBE__CATEGORIES__EDIT":"Modifier la vidéo principal",
+  "YOUTUBE__URL":"Url",
+  "YOUTUBE__ADD__SUCCESS":"Vidéo inséré avec succès",
+  "YOUTUBE__ADD__EDIT":"Vidéo édité avec succès",
+  "YOUTUBE__ADD__FAILED":"Vous devez mettre le lien d'une vidéo",
+  "YOUTUBE__ADD__FAILED__URL":"Vous devez rentrer une url",
+  "YOUTUBE__DELETE__SUCCESS":"La vidéo à été effacé"
+}
+
