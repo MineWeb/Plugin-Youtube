@@ -1,1 +1,33 @@
-{"name":"Youtube","slug":"youtube","nav":true,"admin":true,"admin_group_menu":"customisation","admin_name":"Youtube","admin_icon":"youtube-play","admin_route":"/admin/youtube","author":"PHPierre","version":"1.0.0","apiID":28,"useEvents":false,"permissions":{"available":[],"default":{"0":[],"2":[]}},"requirements":{"CMS":">= 1.0.0"}}
+{
+  "name":"Youtube",
+  "author":"PHPierre",
+  "version":"1.0.1",
+  "apiID":-1,
+
+  "admin_menus": {
+    "GLOBAL__ADMIN_OTHER_TITLE": {
+      "Youtube": {
+        "index": 1,
+        "icon": "youtube-play",
+        "route": "/admin/youtube"
+      }
+    }
+  },
+
+  "navbar_routes": {
+    "Boutique": "/youtube"
+  },
+
+  "apiID":-1,
+  "useEvents":false,
+  "permissions":{
+    "available":[],
+    "default":{
+      "0":[],
+      "2":[]
+    }
+  },
+  "requirements":{
+    "CMS" : "^1.2.0"
+  }
+}
