@@ -9,7 +9,7 @@
   "YOUTUBE__ADD__FAILED__URL":"Vous devez rentrer une url",
   "YOUTUBE__DELETE__SUCCESS":"La vidéo à été effacé",
   "YOUTUBE__EXPLICATION":"Explications",
-  "YOUTUBE__EXPLICATION_DESC":"Le lien de la vidéo ci-dessous est le lien de la vidéo mise en avant sur cette <a href=\"\/\/youtube">page<\/a>.",
+  "YOUTUBE__EXPLICATION_DESC":"Le lien de la vidéo ci-dessous est le lien de la vidéo mise en avant sur cette <a href=\"\/youtube\">page<\/a>.",
   "YOUTUBE__EXPLICATION_DESC_MORE":"Si vous voulez des vidéos de taille plus petite, veuillez les ajouter depuis le champs si dessous."
 }
 

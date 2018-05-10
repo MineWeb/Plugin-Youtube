@@ -23,7 +23,7 @@
                     </div>
                     <p></p>
                     <blockquote>
-                        <p><?= $Lang->get('YOUTUBE__EXPLICATION_DESC') ?></p>
+                        <p><?= $Lang->get('YOUTUBE__EXPLICATION_DESC_MORE') ?></p>
                     </blockquote>
                 </div>
             </div>
