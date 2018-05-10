@@ -7,5 +7,8 @@
     "YOUTUBE__ADD__EDIT":"Video edit with success",
     "YOUTUBE__ADD__FAILED":"You must write a link",
     "YOUTUBE__ADD__FAILED__URL":"You must write a valid URL",
-    "YOUTUBE__DELETE__SUCCESS":"The video has been deleted"
+    "YOUTUBE__DELETE__SUCCESS":"The video has been deleted",
+	"YOUTUBE__EXPLICATION":"Explanations",
+	"YOUTUBE__EXPLICATION_DESC":"The video link below is the video link highlighted on this <a href=\"\/youtube\">page<\/a>.",
+	"YOUTUBE__EXPLICATION_DESC_MORE":"If you want smaller videos, please add them from the box below."
 }
