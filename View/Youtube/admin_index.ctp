@@ -3,11 +3,11 @@
         <div class="col-md-12">
             <div class="box">
                 <div class="box-header">
-                    <h3 class="box-title">Explications</h3>
+                    <h3 class="box-title"><?= $Lang->get('YOUTUBE__EXPLICATION') ?></h3>
                 </div>
                 <div class="box-body">
                     <blockquote>
-                        <p>Le lien de la vidéo ci-dessous est le lien de la vidéo mise en avant sur cette <a href="/youtube">page</a>.</p>
+                        <p><?= $Lang->get('YOUTUBE__EXPLICATION_DESC') ?></p>
                     </blockquote>
                     <div class="row">
                         <div class="col-md-12">
@@ -23,7 +23,7 @@
                     </div>
                     <p></p>
                     <blockquote>
-                        <p>Si vous voulez des vidéos de taille plus petite, veuillez les ajouter depuis le champs si dessous.</p>
+                        <p><?= $Lang->get('YOUTUBE__EXPLICATION_DESC') ?></p>
                     </blockquote>
                 </div>
             </div>
