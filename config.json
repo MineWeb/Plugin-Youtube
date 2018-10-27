@@ -2,10 +2,8 @@
   "name":"Youtube",
   "author":"PHPierre",
   "version":"1.0.1",
-  "apiID":-1,
-
   "admin_menus": {
-    "GLOBAL__ADMIN_OTHER_TITLE": {
+    "GLOBAL__ADMIN_PLUGINS": {
       "Youtube": {
         "index": 1,
         "icon": "youtube-play",
@@ -13,12 +11,9 @@
       }
     }
   },
-
   "navbar_routes": {
-    "Boutique": "/youtube"
+    "Youtube": "/youtube"
   },
-
-  "apiID":-1,
   "useEvents":false,
   "permissions":{
     "available":[],
