@@ -1,7 +1,7 @@
 {
   "name":"Youtube",
   "author":"PHPierre",
-  "version":"1.0.1",
+  "version":"1.0.2",
   "admin_menus": {
     "GLOBAL__ADMIN_PLUGINS": {
       "Youtube": {
