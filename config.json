@@ -1,28 +1,27 @@
 {
-  "name":"Youtube",
-  "author":"PHPierre",
-  "version":"1.0.3",
-  "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
-      "Youtube": {
-        "index": 1,
-        "icon": "fab fa-youtube",
-        "route": "/admin/youtube"
-      }
+    "name": "Youtube",
+    "author": "PHPierre",
+    "version": "1.0.3",
+    "admin_menus": {
+        "GLOBAL__ADMIN_PLUGINS": {
+            "Youtube": {
+                "icon": "fab fa-youtube",
+                "route": "/admin/youtube"
+            }
+        }
+    },
+    "navbar_routes": {
+        "Youtube": "/youtube"
+    },
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
     }
-  },
-  "navbar_routes": {
-    "Youtube": "/youtube"
-  },
-  "useEvents":false,
-  "permissions":{
-    "available":[],
-    "default":{
-      "0":[],
-      "2":[]
-    }
-  },
-  "requirements":{
-    "CMS" : "^1.11.0"
-  }
 }
