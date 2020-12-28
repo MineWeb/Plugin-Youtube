@@ -1,12 +1,12 @@
 {
   "name":"Youtube",
   "author":"PHPierre",
-  "version":"1.0.2",
+  "version":"1.0.3",
   "admin_menus": {
     "GLOBAL__ADMIN_PLUGINS": {
       "Youtube": {
         "index": 1,
-        "icon": "youtube-play",
+        "icon": "fab fa-youtube",
         "route": "/admin/youtube"
       }
     }
@@ -23,6 +23,6 @@
     }
   },
   "requirements":{
-    "CMS" : "^1.2.0"
+    "CMS" : "^1.11.0"
   }
 }
