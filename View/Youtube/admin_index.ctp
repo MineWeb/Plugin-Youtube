@@ -1,17 +1,17 @@
 <section class="content">
     <div class="row">
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header">
-                    <h3 class="box-title">Explications</h3>
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Explications</h3>
                 </div>
-                <div class="box-body">
+                <div class="card-body">
                     <blockquote>
                         <p>Le lien de la vidéo ci-dessous est le lien de la vidéo mise en avant sur cette <a href="/youtube">page</a>.</p>
                     </blockquote>
                     <div class="row">
                         <div class="col-md-12">
-                            <form action="<?= $this->Html->url(array('action' => 'edit_video')) ?>" method="post" style="margin-bottom:60px" data-ajax="true">
+                            <form action="<?= $this->Html->url(array('action' => 'edit_video')) ?>" method="post" style="margin-bottom:60px;display:flex;" data-ajax="true">
                                 <div class="col-md-11">
                                     <input name="main_youtube_url" class="form-control" type="text" value="<?= $video['Youtube']['url']; ?>" />
                                 </div>
@@ -32,12 +32,12 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title"><?= $Lang->get('YOUTUBE__CATEGORIES__ADD') ?></h3>
+            <div class="card">
+                <div class="card-header with-border">
+                    <h3 class="card-title"><?= $Lang->get('YOUTUBE__CATEGORIES__ADD') ?></h3>
                 </div>
-                <div class="box-body">
-                    <form action="<?= $this->Html->url(array('action' => 'add_video')) ?>" method="post" style="margin-bottom:60px" data-ajax="true">
+                <div class="card-body">
+                    <form action="<?= $this->Html->url(array('action' => 'add_video')) ?>" method="post" style="margin-bottom:60px;display:flex;" data-ajax="true">
                         <div class="col-md-11">
                             <input name="youtube_url" class="form-control" type="text" placeholder="https://www.youtube.com/embed/MmB9b5njVbA" />
                         </div>
